@@ -179,8 +179,8 @@ def download_and_extract_text_for_years(
         combined_df = pd.DataFrame(columns=['filename', 'original_text', 'period', 'period_date'])
 
     quarters = [
-        ('01-01', '03-31'),
-        ('04-01', '06-30'),
+        #('01-01', '03-31'),
+        #('04-01', '06-30'),
         ('07-01', '09-30'),
         ('10-01', '12-31')
     ]
